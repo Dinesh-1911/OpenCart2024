@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-02-15T11:37:29 IST" name="Suite" finished-at="2024-02-15T11:37:42 IST" duration-ms="13432">
+    <groups>
+      <group name="sanity">
+        <method signature="Account_Registration.registration()[pri:0, instance:TestCases.Account_Registration@3a7442c7]" name="registration" class="TestCases.Account_Registration"/>
+      </group> <!-- sanity -->
+      <group name="master">
+        <method signature="Account_Registration.registration()[pri:0, instance:TestCases.Account_Registration@3a7442c7]" name="registration" class="TestCases.Account_Registration"/>
+      </group> <!-- master -->
+    </groups>
+    <test started-at="2024-02-15T11:37:29 IST" name="Test" finished-at="2024-02-15T11:37:42 IST" duration-ms="13432">
+      <class name="TestCases.Account_Registration">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:TestCases.Account_Registration@3a7442c7]" started-at="2024-02-15T11:37:29 IST" name="setup" finished-at="2024-02-15T11:37:32 IST" duration-ms="3474" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="registration()[pri:0, instance:TestCases.Account_Registration@3a7442c7]" started-at="2024-02-15T11:37:32 IST" name="registration" finished-at="2024-02-15T11:37:39 IST" duration-ms="6492" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- registration -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:TestCases.Account_Registration@3a7442c7]" started-at="2024-02-15T11:37:39 IST" name="tearDown" finished-at="2024-02-15T11:37:42 IST" duration-ms="3418" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- TestCases.Account_Registration -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+  <suite started-at="2024-02-15T11:37:42 IST" name="Suite (0)" finished-at="2024-02-15T11:37:49 IST" duration-ms="6129">
+    <groups>
+      <group name="regression">
+        <method signature="Login_Testcase.login()[pri:0, instance:TestCases.Login_Testcase@7ce026d3]" name="login" class="TestCases.Login_Testcase"/>
+      </group> <!-- regression -->
+      <group name="master">
+        <method signature="Login_Testcase.login()[pri:0, instance:TestCases.Login_Testcase@7ce026d3]" name="login" class="TestCases.Login_Testcase"/>
+      </group> <!-- master -->
+    </groups>
+    <test started-at="2024-02-15T11:37:42 IST" name="chromeTest" finished-at="2024-02-15T11:37:49 IST" duration-ms="6129">
+      <class name="TestCases.Login_Testcase">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:TestCases.Login_Testcase@7ce026d3]" started-at="2024-02-15T11:37:42 IST" name="setup" finished-at="2024-02-15T11:37:44 IST" duration-ms="1910" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="login()[pri:0, instance:TestCases.Login_Testcase@7ce026d3]" started-at="2024-02-15T11:37:44 IST" name="login" finished-at="2024-02-15T11:37:45 IST" duration-ms="1001" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:TestCases.Login_Testcase@7ce026d3]" started-at="2024-02-15T11:37:45 IST" name="tearDown" finished-at="2024-02-15T11:37:49 IST" duration-ms="3211" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- TestCases.Login_Testcase -->
+    </test> <!-- chromeTest -->
+  </suite> <!-- Suite (0) -->
+</testng-results>
